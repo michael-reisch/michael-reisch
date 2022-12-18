@@ -1,5 +1,6 @@
 import React from 'react'
-import { Container } from '@chakra-ui/react'
+import NextLink from 'next/link'
+import { Container, Link } from '@chakra-ui/react'
 
 const About = (props) => {
   return (
@@ -7,11 +8,14 @@ const About = (props) => {
       <h1>Hello!</h1>
       <p>
         My name is Michael Reisch. I am a full-stack React developer and a
-        recent graduate of Dev Academy Aotearoa. I have experience working
-        effectively in teams and building functional web-applications. I have a
-        passion for learning and utlilizing my creativity to solve real-world
-        problems. I have an interest in learning Three.js and exploring data
-        analysis with Python.
+        recent graduate of{' '}
+        <Link as={NextLink} href="Dev Academy Aotearoa">
+          Dev Academy Aotearoa
+        </Link>
+        . I have experience working effectively in teams and building functional
+        web-applications. I have a passion for learning and utlilizing my
+        creativity to solve real-world problems. I have an interest in learning
+        Three.js and exploring data analysis with Python.
       </p>
       <br />
       <p>
