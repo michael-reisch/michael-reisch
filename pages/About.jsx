@@ -1,9 +1,9 @@
 import React from 'react'
-import { Text } from '@chakra-ui/react'
+import { Container } from '@chakra-ui/react'
 
 const About = (props) => {
   return (
-    <Text>
+    <Container>
       <h1>Hello!</h1>
       <p>
         My name is Michael Reisch. I am a full-stack React developer and a
@@ -25,7 +25,7 @@ const About = (props) => {
         band, ride my e-bike around Wellington, New Zealand and enjoy rock
         climbing.
       </p>
-    </Text>
+    </Container>
   )
 }
 
