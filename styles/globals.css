@@ -1,15 +1,64 @@
 * {
-  background-color: grey;
+  background-color: #282d35;
+  color: #e5c07b;
 }
 
 #gmailContainer {
   align-items: center;
+  margin-right: 50px;
 }
 
 #nav {
-  margin-left: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
 }
 
-.header {
-  display: flex;
+.nav-link {
+  margin: 20px;
 }
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+#about {
+  padding-right: 50px;
+}
+
+#about-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 80%;
+  margin: auto;
+}
+
+#tree-image-container {
+  width: 500px;  
+}
+
+#tree-image {
+  border-radius: 5%;
+}
+
+#face-image {
+  margin: 50px;
+}
+
+/* #email-text {
+  max-width: 100%;
+} */
+
+/* colors:
+pink: #c779dd
+red: #de6c74
+black: #282d35
+green: #98c379
+yellow: #e5c07b
+dark yellow: #d09b66
+Blue: #60afef
+*/

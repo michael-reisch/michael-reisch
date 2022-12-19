@@ -4,7 +4,7 @@ import { Container, Link } from '@chakra-ui/react'
 
 const About = (props) => {
   return (
-    <Container>
+    <Container id="about">
       <h1>Hello!</h1>
       <p>
         My name is Michael Reisch. I am a full-stack React developer and a

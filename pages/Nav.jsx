@@ -11,7 +11,7 @@ const Nav = (props) => {
         href="https://github.com/michael-reisch/"
         target="_blank"
       >
-        <Image alt="Github Link" src="/github.png" height="50" width="50" />
+        <Image alt="Github Link" src="/github.png" height="35" width="35" />
       </Link>
       <Link
         className="nav-link"
@@ -19,7 +19,7 @@ const Nav = (props) => {
         href="https://www.linkedin.com/in/michael-reisch-nz/"
         target="_blank"
       >
-        <Image alt="LinkedIn Link" src="/linkedin.png" height="50" width="50" />
+        <Image alt="LinkedIn Link" src="/linkedin.png" height="35" width="35" />
       </Link>
       <Flex id="gmailContainer" flexDirection="column">
         <Link
@@ -28,9 +28,11 @@ const Nav = (props) => {
           href="mailto:mreisch88@gmail.com"
           target="_blank"
         >
-          <Image alt="Gmail Link" src="/gmail.png" height="50" width="50" />
+          <Image alt="Gmail Link" src="/gmail.png" height="35" width="35" />
         </Link>
-        <Text fontSize="xs">MReisch88@gmail.com</Text>
+        {/* <Text id="email-text" fontSize="xs">
+          MReisch88@gmail.com
+        </Text> */}
       </Flex>
     </HStack>
   )
