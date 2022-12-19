@@ -5,29 +5,40 @@ import { Container, Link } from '@chakra-ui/react'
 const About = (props) => {
   return (
     <Container id="about">
-      <h1>Hello!</h1>
-      <p>
-        My name is Michael Reisch. I am a full-stack React developer and a
-        recent graduate of{' '}
-        <Link as={NextLink} href="Dev Academy Aotearoa">
+      <h1 id="greeting">Hello!</h1>
+      <br />
+      <p id="intro">
+        My name is Michael Reisch. I am a full-stack developer and a recent
+        graduate of{' '}
+        <Link
+          id="intro-link"
+          as={NextLink}
+          href="https://devacademy.co.nz/"
+          target="_blank"
+        >
           Dev Academy Aotearoa
         </Link>
         . I have experience working effectively in teams and building functional
         web-applications. I have a passion for learning and utlilizing my
         creativity to solve real-world problems. I have an interest in learning
-        Three.js and exploring data analysis with Python.
+        Three.js and exploring data analysis and backend development with
+        Python.
       </p>
       <br />
-      <p>
+      <p id="prev-career">
         In my previous career I worked as a leading internationally-certified
         arborist for over a decade. I hope to bring my experience of working in
         tight-knit teams to the tech industry and fulfill my potential.
       </p>
       <br />
-      <p>
+      <p id="free-time">
         In my free time I write songs on piano and guitar, play these songs in a
-        band, ride my e-bike around Wellington, New Zealand and enjoy rock
-        climbing.
+        band, ride a super cool e-bike and enjoy rock climbing.
+      </p>
+      <br />
+      <p>
+        If you would like to discuss opportunities to work together, please
+        reach out to me : )
       </p>
     </Container>
   )

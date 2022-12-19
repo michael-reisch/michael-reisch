@@ -1,6 +1,14 @@
 * {
   background-color: #282d35;
   color: #e5c07b;
+  font-family: 'Alegreya', serif;
+  font-size: large;
+  max-height: 100vh;
+  max-width: 100vw;
+}
+
+#intro-link {
+  color: #c779dd;
 }
 
 #gmailContainer {
@@ -27,6 +35,16 @@
 
 #about {
   padding-right: 50px;
+  padding-bottom: 30px;
+  margin-left: 40px;
+}
+
+#about p {
+  font-size: 18px;
+}
+
+#greeting {
+  font-size: 50px;
 }
 
 #about-image-container {
@@ -38,20 +56,98 @@
 }
 
 #tree-image-container {
-  width: 500px;  
+  width: 500px;
 }
 
 #tree-image {
   border-radius: 5%;
+  box-shadow: 0 10px 500px -20px #60afef;
+}
+
+#midjourney-link {
+  color: #c779dd;
+}
+
+#image-label {
+  text-align: center;
 }
 
 #face-image {
   margin: 50px;
 }
 
-/* #email-text {
-  max-width: 100%;
-} */
+#divider {
+  margin-bottom: 60px;
+  border-color: #de6c74;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    max-width: 100vh;
+  }
+
+  #tree-image-container {
+    display: none;
+  }
+
+  #image-label {
+    display: none;
+  }
+  #face-image {
+    margin: 30px;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  #about {
+    margin-bottom: 40px;
+  }
+
+  .nav-image {
+    min-width: 50px;
+    min-height: 50px;
+    margin: auto;
+  }
+
+  #nav {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #face-nav-image {
+    min-width: 100px;
+  }
+
+  #header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  #divider {
+    max-width: 100%;
+    margin-bottom: 15px;
+  }
+
+  #about {
+    text-align: center;
+    padding: 0;
+    margin-left: 0;
+    margin-bottom: 30px;
+  }
+
+  .about-text {
+    margin: auto;
+  }
+
+  .nav-link {
+    margin: auto;
+  }
+}
 
 /* colors:
 pink: #c779dd

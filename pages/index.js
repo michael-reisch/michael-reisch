@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
 
-import { Flex } from '@chakra-ui/react'
+import { Flex, Divider } from '@chakra-ui/react'
 
 import About from './About'
 import Nav from './Nav'
@@ -18,7 +18,7 @@ export default function Home() {
   useEffect(() => {
     gsap.fromTo(
       '.header',
-      { x: 800 },
+      { x: 1000 },
       {
         x: 0,
         ease: 'bounce',
@@ -28,7 +28,7 @@ export default function Home() {
     )
     gsap.fromTo(
       '#about-image-container',
-      { x: 900 },
+      { x: 2000 },
       {
         x: 0,
         ease: 'bounce',
@@ -36,7 +36,11 @@ export default function Home() {
         immediateRender: false,
       }
     )
-    console.log('huh')
+    gsap.fromTo(
+      '#divider',
+      { x: 2000 },
+      { x: 0, ease: 'bounce', duration: 5, immediateRender: false }
+    )
   }, [])
 
   return (
@@ -47,14 +51,15 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="" href="" />{' '}
       </Head>
-      <Flex className="header" id="header">
-        <FaceImage />
-        <Nav />
-      </Flex>
-      <Flex id="about-image-container">
-        <About className="about-text" />
-        <TreeImage className="image-yes" />
-      </Flex>
+        <Flex className="header" id="header">
+          <FaceImage />
+          <Nav />
+        </Flex>
+        <Divider id="divider" />
+        <Flex id="about-image-container">
+          <About className="about-text" />
+          <TreeImage className="image-yes" />
+        </Flex>
     </>
   )
 }
