@@ -20,9 +20,17 @@ const About = (props) => {
         </Link>
         . I have experience working effectively in teams and building functional
         web-applications. I have a passion for learning and utlilizing my
-        creativity to solve real-world problems. I have an interest in learning
-        Three.js and exploring data analysis and backend development with
-        Python.
+        creativity to solve{' '}
+        <Link
+          id="intro-link"
+          as={NextLink}
+          href="https://urbanature.devacademy.online/"
+          target="_blank"
+        >
+          real-world problems
+        </Link>
+        . I have an interest in learning Three.js and exploring data analysis
+        and backend development with Python.
       </p>
       <br />
       <p id="prev-career">

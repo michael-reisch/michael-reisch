@@ -7,7 +7,7 @@ const FaceImage = (props) => {
     <Tilt tiltMaxAngleX={50} tiltMaxAngleY={50}>
       <Box id="face-image">
         <Image
-          id='face-nav-image'
+          id="face-nav-image"
           borderRadius="full"
           boxSize="100px"
           objectFit="cover"
