@@ -10,13 +10,13 @@ const TreeImage = (props) => {
           <Image id="tree-image" alt="tree image" src="/tree-image.png" />
         </Box>
       </Tilt>
-      <Text id="image-label">
+      {/* <Text id="image-label">
         *Image created by{' '}
         <Link id="midjourney-link" href="https://discord.com/invite/midjourney" target='_blank'>
           Midjourney AI
         </Link>{' '}
         text to image generator*
-      </Text>
+      </Text> */}
     </Box>
   )
 }
