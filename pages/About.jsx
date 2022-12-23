@@ -29,8 +29,9 @@ const About = (props) => {
         >
           real-world problems
         </Link>
-        . I have an interest in learning Three.js and exploring data analysis
-        and backend development with Python.
+        . I am working on building my React.js skillset and have an interest in
+        learning Three.js and exploring data analysis and backend development
+        with Python.
       </p>
       <br />
       <p id="prev-career">
