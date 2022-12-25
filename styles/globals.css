@@ -131,7 +131,6 @@
   border-color: #de6c74;
 }
 
-
 #urbanature-container {
   display: flex;
   border: 1px solid #60afef;
@@ -227,6 +226,22 @@
 
   .nav-link {
     margin: auto;
+  }
+
+  #urbanature-container {
+    max-width: 90%;
+  }
+
+  #urbanature-screenshot {
+    max-width: 90%;
+  }
+
+  #about-image-container {
+    margin-bottom: 30px;
+  }
+
+  body {
+    display: contents;
   }
 }
 

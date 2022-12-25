@@ -8,7 +8,7 @@ const Trees = (props) => {
       <Link
         id="urbanature-link"
         as={NextLink}
-        href="https://github.com/michael-reisch/"
+        href="https://urbanature.devacademy.online/"
         target="_blank"
       >
         <Image
