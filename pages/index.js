@@ -11,6 +11,7 @@ import FaceImage from './FaceImage'
 import { useEffect } from 'react'
 
 import { gsap } from 'gsap'
+import Trees from './Trees'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -41,6 +42,16 @@ export default function Home() {
       { x: 2000 },
       { x: 0, ease: 'bounce', duration: 5, immediateRender: false }
     )
+    gsap.fromTo(
+      '#urbanature-container',
+      { x: 2500 },
+      {
+        x: 0,
+        ease: 'bounce',
+        duration: 4,
+        immediateRender: false,
+      }
+    )
   }, [])
 
   return (
@@ -51,15 +62,18 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="" href="" />{' '}
       </Head>
-        <Flex className="header" id="header">
-          <FaceImage />
-          <Nav />
-        </Flex>
-        <Divider id="divider" />
+      <Flex className="header" id="header">
+        <FaceImage />
+        <Nav />
+      </Flex>
+      <Divider id="divider" />
+      <Flex id="about-image-urbanature-container">
         <Flex id="about-image-container">
           <About className="about-text" />
           <TreeImage className="image-yes" />
         </Flex>
+        <Trees id="urbanature-container" />
+      </Flex>
     </>
   )
 }
