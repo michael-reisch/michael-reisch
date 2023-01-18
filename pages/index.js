@@ -9,16 +9,12 @@ import { Flex, Spacer } from '@chakra-ui/react'
 export default function Home() {
   return (
     <>
-      <Flex id='body-container'>
-        <Flex id="name-contact-container">
-          <Name />
-          <Contact />
-        </Flex>
-        <Flex id="about-image-container">
-          <About />
-          <TreeImage />
-        </Flex>
-      </Flex>
+      <div id="body-container">
+        <Name />
+        <Contact />
+        <About />
+        <TreeImage />
+      </div>
     </>
   )
 }
