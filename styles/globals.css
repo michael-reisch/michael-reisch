@@ -1,23 +1,22 @@
 #__next {
   height: 100vh;
   width: 100vw;
-  background-color: black;
+  background-color: #0F4C5C;
 }
 
 #name {
   font-family: 'Audiowide', cursive;
   font-size: 4rem;
-  /* padding-top: 30px;
-  margin-bottom: 10px;
-  margin-left: 89px;
-  text-align: left; */
+  text-align: center;
   color: white;
 }
 
 #name-contact-container {
   display: flex;
   height: 100px;
-  padding: 60px 0 0 100px;
+  width: 100%;
+  /* margin: auto; */
+  /* padding: 60px 0 0 100px; */
   align-items: center;
   justify-content: space-evenly;
 }
@@ -30,10 +29,7 @@
   margin: auto;
 }
 
-#about-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+#about {
   width: 39%;
   height: 550px;
   margin-top: 40px;
@@ -47,7 +43,7 @@
 #about-image-container {
   padding: 0 60px 0 60px;
   margin-top: 30px;
-  margin-right: 20px
+  margin-right: 20px;
 }
 
 #about-image-container {
@@ -59,4 +55,17 @@ p {
   font-family: 'Ubuntu', sans-serif;
   font-size: 17px;
   color: white;
+}
+
+#dev-acad-link {
+  color: #FB8B24;
+}
+
+#dev-acad-link:hover {
+  text-decoration: underline;
+}
+
+#body-container{
+  flex-direction: column;
+  justify-content: space-around;
 }
