@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutPast = (props) => {
   return (
-    <div id='about-container'>
+    <div id='about-past-container'>
       <p id='about-past'>
         For the last eleven years, across two countries, I worked as an
         internationally certified arborist. I climbed trees with chainsaws and
