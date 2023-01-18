@@ -1,3 +1,52 @@
-* {
-  background-color: grey;
+#__next {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('/techTree.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 900px;
+  background-color: black;
+}
+
+#name {
+  font-family: 'Audiowide', cursive;
+  font-size: 4rem;
+  padding-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: white;
+}
+
+#contact-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 30%;
+  margin: auto;
+}
+
+#about-container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 0 60px 0 60px;
+  margin-top: -30px;
+}
+
+#tree-image {
+  max-width: 200px;
+  margin-top: -50px;
+  margin-bottom: -50px;
+  visibility: hidden;
+}
+
+#about-future-container {
+  width: 30%;
+  text-align: center;
+  margin: auto;
+}
+
+p {
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
 }

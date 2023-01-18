@@ -11,11 +11,9 @@ import { Flex, Spacer } from '@chakra-ui/react'
 export default function Home() {
   return (
     <>
-      <Flex>
         <Name/>
         <Contact />
-      </Flex>
-      <Flex>
+      <Flex id='about-container'>
         <AboutPast />
         <Spacer />
         <TreeImage />
@@ -23,7 +21,7 @@ export default function Home() {
         <AboutPresent />
       </Flex>
       <AboutFuture />
-      <Urbanature />
+      {/* <Urbanature /> */}
     </>
   )
 }
