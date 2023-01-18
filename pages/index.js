@@ -1,5 +1,4 @@
-import Michael from './Michael'
-import Reisch from './Reisch'
+import Name from './Name'
 import AboutPast from './AboutPast'
 import TreeImage from './TreeImage'
 import AboutFuture from './AboutFuture'
@@ -12,9 +11,10 @@ import { Flex, Spacer } from '@chakra-ui/react'
 export default function Home() {
   return (
     <>
-      <Michael />
-      <Reisch />
-      <Contact />
+      <Flex>
+        <Name/>
+        <Contact />
+      </Flex>
       <Flex>
         <AboutPast />
         <Spacer />

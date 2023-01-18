@@ -3,8 +3,9 @@ import { Image } from '@chakra-ui/react'
 
 const TreeImage = (props) => {
   return (
-    <div>
+    <div id='tree-image-container'>
       <Image
+        id='tree-image'
         src="/techTree.svg"
         alt="digital tree image"
         width="500"
