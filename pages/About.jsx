@@ -1,55 +1,42 @@
 import React from 'react'
-import NextLink from 'next/link'
-import { Container, Link } from '@chakra-ui/react'
+import Link from 'next/link'
 
 const About = (props) => {
   return (
-    <Container id="about">
-      <h1 id="greeting">Hello!</h1>
-      <br />
-      <p id="intro">
-        My name is Michael Reisch. I am a full-stack developer and a recent
-        graduate of{' '}
+    <div id='about'>
+      <p>
+        Hello, I am a full-stack developer and recent graduate of{' '}
         <Link
-          id="intro-link"
-          as={NextLink}
+          id="dev-acad-link"
           href="https://devacademy.co.nz/"
-          target="_blank"
+          target="blank"
         >
           Dev Academy Aotearoa
         </Link>
-        . I have experience working effectively in teams and building functional
-        web-applications. I have a passion for learning and utlilizing my
-        creativity to solve{' '}
-        <Link
-          id="intro-link"
-          as={NextLink}
-          href="https://urbanature.devacademy.online/"
-          target="_blank"
-        >
-          real-world problems
-        </Link>
-        . I am working on building my React.js skillset and have an interest in
-        learning Three.js and exploring data analysis and backend development
-        with Python.
+        . Before embarking on this journey of changing careers into the tech
+        industry, I worked for eleven years as an internationally certified
+        arborist across multiple countries. I led and developed effective teams
+        as we worked collaboratively to solve complex and often hazardous
+        problems. But I always dreamt of working with technology...
+        <br />
+        <br />
+        Intrigued by the fertile soil of combining creativity with logic to
+        build useful applications and solve real-world problems, I enjoyed
+        periods of self-study. Finally, after acquiring Residency in New Zealand
+        I was granted the opportunity to participate in Dev Academy and fully
+        commit to changing careers.
+        <br />
+        <br />
+        As I venture forth on this journey, I am learning every day. I am
+        continuing to refine my skills with React and Redux, exploring the
+        possibilities of 3D animation with Three.js and eventually expanding
+        into data analysis and backend development with Python.
+        <br />
+        <br />
+        If you believe in my potential to be an effective member of your team,
+        please reach out to me!
       </p>
-      <br />
-      <p id="prev-career">
-        In my previous career I worked as a leading internationally-certified
-        arborist for over a decade. I hope to bring my experience of working in
-        tight-knit teams to the tech industry and fulfill my potential.
-      </p>
-      <br />
-      <p id="free-time">
-        In my free time I write songs on piano and guitar, play these songs in a
-        band, ride a super cool e-bike and enjoy rock climbing.
-      </p>
-      <br />
-      <p>
-        If you would like to discuss opportunities to work together, please
-        reach out to me : )
-      </p>
-    </Container>
+    </div>
   )
 }
 
