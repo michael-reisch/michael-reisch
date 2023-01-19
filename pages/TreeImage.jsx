@@ -8,8 +8,6 @@ const TreeImage = (props) => {
         id='tree-image'
         src="/techTree.svg"
         alt="digital tree image"
-        width="500"
-        height="500"
       ></Image>
     </div>
   )

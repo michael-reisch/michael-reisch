@@ -14,6 +14,7 @@ export default function Home() {
         <Contact />
         <About />
         <TreeImage />
+        <Urbanature/>
       </div>
     </>
   )
